@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Momo &amp; Mema · a tiny couple, everyday love</title>
+<meta name="description" content="Momo is a black cat. Mema is a cream plush with floppy ears. A new short cartoon episode every day about everyday couple life.">
+<meta property="og:title" content="Momo & Mema">
+<meta property="og:description" content="A tiny couple, everyday love. A new episode every day.">
+<meta property="og:image" content="avatar.webp">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@500;700&display=swap">
+<link rel="stylesheet" href="estilo.css">
+<script>
+  // Español o inglés según el navegador; el botón lo cambia y se recuerda.
+  (function () {
+    var l; try { l = localStorage.getItem('idioma'); } catch (e) {}
+    document.documentElement.lang = l || ((navigator.language || 'en').slice(0, 2) === 'es' ? 'es' : 'en');
+  })();
+</script>
+</head>
+<body>
+<header class="barra">
+  <div class="envoltura">
+    <a class="marca" href="./"><img src="avatar.webp" width="40" height="40" alt="">Momo &amp; Mema</a>
+    <nav>
+      <a class="boton rosa" href="https://www.youtube.com/@momoymema" rel="noopener">
+        <span lang="en">Watch</span><span lang="es">Ver</span>
+      </a>
+      <button class="idioma" type="button" id="idioma" aria-label="Cambiar idioma / Change language">ES · EN</button>
+    </nav>
+  </div>
+</header>
+
+<main class="envoltura">
+  <section class="portada" aria-labelledby="t-portada">
+    <div>
+      <span class="cinta"><span lang="en">New episode every day</span><span lang="es">Episodio nuevo cada día</span></span>
+      <h1 id="t-portada">Momo <span class="y">&amp;</span> Mema</h1>
+      <p class="bajada" lang="en">A tiny couple. Everyday love. They steal each other's food, fight over the blanket — and always make up.</p>
+      <p class="bajada" lang="es">Una parejita. Amor de cada día. Se roban la comida, se pelean por la manta… y siempre se reconcilian.</p>
+      <div class="acciones">
+        <a class="boton negro" href="https://www.youtube.com/@momoymema" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>YouTube</a>
+        <a class="boton" href="https://www.tiktok.com/@momoymema" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>TikTok</a>
+      </div>
+    </div>
+    <div class="escenario" aria-hidden="true">
+      <span class="globo ta">ta-ta-ta!</span>
+      <span class="globo to">to-to?</span>
+      <span class="corazon">💗</span>
+      <img class="pj mema" src="mema-03-movimiento-1.webp" alt="" width="383" height="520">
+      <img class="pj momo" src="momo-03-movimiento-1.webp" alt="" width="388" height="520">
+    </div>
+  </section>
+
+  <section aria-labelledby="t-ellos">
+    <div class="titulo">
+      <h2 id="t-ellos"><span lang="en">Meet them</span><span lang="es">Te presento</span></h2>
+      <p lang="en">They don't speak any language: just their own. You'll understand them anyway.</p>
+      <p lang="es">No hablan ningún idioma: solo el suyo. Y aun así los vas a entender.</p>
+    </div>
+    <div class="fichas">
+      <article class="ficha">
+        <img src="mema-08-carino-1.webp" alt="Mema, a cream plush with long floppy ears, blowing a kiss" width="330" height="520" loading="lazy">
+        <div>
+          <h3>Mema</h3>
+          <p lang="en">Cream plush, floppy ears, endless energy. Cold feet, warm heart. Will steal your hoodie.</p>
+          <p lang="es">Peluche crema de orejas caídas y energía infinita. Pies fríos, corazón caliente. Te robará la sudadera.</p>
+          <span class="habla">“ta-ta-ta!”</span>
+        </div>
+      </article>
+      <article class="ficha">
+        <img src="momo-emociones-4.webp" alt="Momo, a black cat, blushing" width="390" height="520" loading="lazy">
+        <div>
+          <h3>Momo</h3>
+          <p lang="en">Black cat, green eyes, grumpy on the outside. Human heater. Would give her the last slice. Eventually.</p>
+          <p lang="es">Gato negro de ojos verdes, gruñón por fuera. Estufa humana. Le daría la última porción. Al final.</p>
+          <span class="habla">“to-to…”</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-eps">
+    <div class="titulo">
+      <h2 id="t-eps"><span lang="en">Episodes</span><span lang="es">Episodios</span></h2>
+      <p lang="en">15–25 seconds of things every couple knows too well. Send one to your Momo or your Mema.</p>
+      <p lang="es">15–25 segundos de cosas que toda pareja conoce de sobra. Mándale uno a tu Momo o a tu Mema.</p>
+    </div>
+    <div class="episodios">
+      <figure class="ep"><img src="002.webp" alt="Momo and Mema sharing the last slice of cake" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">The last slice</span><span lang="es">La última porción</span></figcaption></figure>
+      <figure class="ep"><img src="001.webp" alt="Momo and Mema falling asleep together" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">Can't sleep without cuddles</span><span lang="es">Sin mimos no duerme</span></figcaption></figure>
+      <figure class="ep"><img src="005.webp" alt="Momo and Mema under one umbrella in the rain" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">Only one umbrella</span><span lang="es">Un solo paraguas</span></figcaption></figure>
+      <figure class="ep"><img src="006.webp" alt="Momo and Mema sharing noodles in the kitchen" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">The 3 a.m. snack</span><span lang="es">Hambre de madrugada</span></figcaption></figure>
+      <figure class="ep"><img src="010.webp" alt="Momo and Mema camping under the stars" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">Snoring at the campsite</span><span lang="es">Ronquidos de acampada</span></figcaption></figure>
+      <figure class="ep"><img src="011.webp" alt="Momo and Mema sharing an ice cream in the street" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">From grumpy to happy</span><span lang="es">De gruñona a feliz</span></figcaption></figure>
+      <figure class="ep"><img src="007.webp" alt="Momo and Mema hugging at a surprise party" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">The surprise</span><span lang="es">La sorpresa</span></figcaption></figure>
+      <figure class="ep"><img src="003.webp" alt="Momo and Mema in the bedroom, one hot and one cold" width="480" height="528" loading="lazy">
+        <figcaption><span lang="en">One freezing, one boiling</span><span lang="es">Frío y calor</span></figcaption></figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-mundo">
+    <div class="titulo">
+      <h2 id="t-mundo"><span lang="en">Around the world</span><span lang="es">Por el mundo</span></h2>
+      <p lang="en">Same couple, same fights, better views.</p>
+      <p lang="es">La misma pareja, las mismas peleas, mejores vistas.</p>
+    </div>
+    <div class="viajes">
+      <figure class="polaroid"><img src="21-paris-torre-eiffel.webp" alt="Eiffel Tower" width="480" height="360" loading="lazy"><figcaption>Paris</figcaption></figure>
+      <figure class="polaroid"><img src="22-muralla-china.webp" alt="Great Wall of China" width="480" height="360" loading="lazy"><figcaption><span lang="en">Great Wall</span><span lang="es">Muralla China</span></figcaption></figure>
+      <figure class="polaroid"><img src="34-pisa-torre.webp" alt="Leaning Tower of Pisa" width="480" height="360" loading="lazy"><figcaption>Pisa</figcaption></figure>
+      <figure class="polaroid"><img src="26-japon-fuji-sakura.webp" alt="Mount Fuji with cherry blossoms" width="480" height="360" loading="lazy"><figcaption><span lang="en">Japan</span><span lang="es">Japón</span></figcaption></figure>
+      <figure class="polaroid"><img src="23-roma-coliseo.webp" alt="Colosseum in Rome" width="480" height="360" loading="lazy"><figcaption><span lang="en">Rome</span><span lang="es">Roma</span></figcaption></figure>
+      <figure class="polaroid"><img src="27-egipto-piramides.webp" alt="Pyramids of Giza" width="480" height="360" loading="lazy"><figcaption><span lang="en">Egypt</span><span lang="es">Egipto</span></figcaption></figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-redes">
+    <div class="redes">
+      <img src="avatar.webp" alt="" width="96" height="96" style="width:96px;border-radius:50%;border:3px solid #fff">
+      <h2 id="t-redes"><span lang="en">One new episode, every day</span><span lang="es">Un episodio nuevo, cada día</span></h2>
+      <p lang="en">Follow them where you watch your shorts.</p>
+      <p lang="es">Síguelos donde ves tus vídeos cortos.</p>
+      <div class="acciones">
+        <a class="boton rosa" href="https://www.youtube.com/@momoymema" rel="noopener">YouTube</a>
+        <a class="boton" href="https://www.tiktok.com/@momoymema" rel="noopener">TikTok</a>
+      </div>
+      <p class="pronto"><span lang="en">Instagram and Facebook: coming soon</span><span lang="es">Instagram y Facebook: muy pronto</span></p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="envoltura">
+    <span>© 2026 Momo &amp; Mema</span>
+    <nav>
+      <a href="privacy.html"><span lang="en">Privacy</span><span lang="es">Privacidad</span></a>
+      <a href="terms.html"><span lang="en">Terms</span><span lang="es">Condiciones</span></a>
+    </nav>
+  </div>
+</footer>
+<script>
+  document.getElementById('idioma').addEventListener('click', function () {
+    var l = document.documentElement.lang === 'es' ? 'en' : 'es';
+    document.documentElement.lang = l;
+    try { localStorage.setItem('idioma', l); } catch (e) {}
+  });
+</script>
+</body>
+</html>
